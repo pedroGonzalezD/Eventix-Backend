@@ -45,8 +45,8 @@ app.use(authenticateToken);
 app.use("/api", paymentRouter);
 app.use("/api", ticketRouter);
 
-app.listen(5000, () => {
-  console.log(`server listen`);
-});
+// app.listen(5000, () => {
+//   console.log(`server listen`);
+// });
 
 export default app;
